@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhle0501/KhoaLuanTotNghiep2025-Cafe.git"
+  },
+  "author": "Minh Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhle0501/KhoaLuanTotNghiep2025-Cafe/issues"
+  },
+  "homepage": "https://github.com/minhle0501/KhoaLuanTotNghiep2025-Cafe#readme",
+  "description": "",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.6.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "ml-regression": "^6.3.0",
+    "moment": "^2.30.1",
+    "mongoose": "^8.13.0",
+    "multer": "^1.4.5-lts.2",
+    "nodemailer": "^6.10.0",
+    "sentiment": "^5.0.2",
+    "validator": "^13.15.0"
+  }
+}
